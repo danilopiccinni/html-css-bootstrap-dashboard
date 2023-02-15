@@ -1,9 +1,6 @@
 /* misure conenitori macroaree */
 nav {
     height: 70px;
-
-    /* test */
-    background-color: grey;
 }
 
 aside {
@@ -24,6 +21,18 @@ section {
 }
 /* / misure conenitori macroaree */
 
+/* ___________________________________ */
+
+/* nav */
+.lente-relative {
+    position: relative;
+}
+.fa-magnifying-glass {
+    position: absolute;
+}
+/* / nav */
+
+/* ___________________________________ */
 
 /* aside */
 aside li:hover {
@@ -41,5 +50,8 @@ aside li:hover {
         background-color:red;
     }
 }
+/* / aside */
+
+/* ___________________________________ */
 
 
