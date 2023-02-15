@@ -25,6 +25,18 @@ section {
 /* / misure conenitori macroaree */
 
 
-
+/* aside */
+@media screen and (max-width : 992px) {
+    aside {
+        width: 75px;
+    }
+    section {
+        width: calc(100vw - 75px);
+        height: calc(100vh - 70px);
+    
+        /* test */
+        background-color:red;
+    }
+}
 
 
