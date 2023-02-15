@@ -1,0 +1,28 @@
+/* misure conenitori macroaree */
+nav {
+    height: 70px;
+
+    /* test */
+    background-color: grey;
+}
+
+aside {
+    width: 120px;
+    height: calc(100vh - 70px);
+
+    /* test */
+    background-color: blue;
+}
+
+section {
+    width: calc(100vw - 120px);
+    height: calc(100vh - 70px);
+
+    /* test */
+    background-color:red;
+}
+/* / misure conenitori macroaree */
+
+
+
+
