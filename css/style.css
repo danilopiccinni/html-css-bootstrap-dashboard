@@ -26,6 +26,9 @@ section {
 
 
 /* aside */
+aside li:hover {
+    background-color: rgba(128, 128, 128, 0.514);
+}
 @media screen and (max-width : 992px) {
     aside {
         width: 75px;
