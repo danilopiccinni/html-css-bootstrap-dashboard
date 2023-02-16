@@ -78,9 +78,13 @@ header {
     font-size: 15px;
 }
 
+.offcanvas.menu-laterale {
+    width: 40%;
+}
+
 @media screen and (max-width : 991px) {
-    .offcanvas.offcanvas-end {
-        width: 100%!important;
+    .offcanvas.menu-laterale {
+        width: 100%;
     }
 }
 /* / menu laterale a scomparsa */
