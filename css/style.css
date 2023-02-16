@@ -5,8 +5,7 @@ nav {
 
 aside {
     width: 150px;
-    height: calc(100vh - 70px);
-
+    
     /* test */
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
@@ -14,7 +13,7 @@ aside {
 
 section {
     width: calc(100vw - 150px);
-    height: calc(100vh - 70px);
+    height: calc(100% - 70px);
 
     /* test */
     background-color:red;
