@@ -149,13 +149,98 @@
                             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                                 <i class="fa-regular fa-square-plus fs-2"></i>
                             </button>
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Inserisci un nuovo studente</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
-                                    <form class="form-right">
+                                    <div class="row flex-column flex-md-row">
+                                        <div class="col col-md-6 py-2">
+                                            <label class="pb-2">Nome</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-6 py-2">
+                                            <label class="pb-2">Cognome</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-6 py-2">
+                                            <label class="pb-2">Email</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="email" class="form-control" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-6 py-2">
+                                            <label class="pb-2">Password</label>
+                                            <div class="input-group">
+                                                <input type="password" class="form-control" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-6 py-2">
+                                            <label class="pb-2">Indirizzo Email</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="email" class="form-control" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-6 py-2">
+                                            <label class="pb-2">Password</label>
+                                            <div class="input-group">
+                                                <input type="password" class="form-control" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-12 py-2">
+                                            <label class="pb-2">Indirizzo</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-6 py-2">
+                                            <label class="pb-2">Città</label>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-4 py-2">
+                                            <label class="pb-2">Stato</label>
+                                            <div class="input-group">
+                                                <select class="form-select" id="inputGroupSelect01">
+                                                  <option selected>Scegli...</option>
+                                                  <option value="1">One</option>
+                                                  <option value="2">Two</option>
+                                                  <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-2 py-2">
+                                            <label class="pb-2">CAP</label>
+                                            <div class="input-group">
+                                                <input type="number" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-12 py-2">
+                                            <label class="pb-2">Foto</label>
+                                            <div class="input-group">
+                                                <button class="btn btn-outline-secondary" type="button" id="button-addon1">Segli file</button>
+
+                                                <input type="text" class="form-control" placeholder="Nessun file selezionato" aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pt-4">
+                                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                            <label class="form-check-label" for="firstCheckbox">Seleziona per proseguire</label>
+                                        </div>
+                                        <div class="py-2">
+                                            <button type="button" class="btn btn-primary">Salva</button>
+                                            <button type="button" class="btn btn-warning">Svuota</button>
+                                        </div>
+                                    </div>
+                                    <!-- <form class="form-right">
                                         <div class="row">
                                             <div class="col-sm-6 mb-3">
                                                 <label>Nome</label>
@@ -183,7 +268,7 @@
                                             </div>
                                         </div>
 
-                                    </form>
+                                    </form> -->
                                 </div>
                             </div>   
                         </div>

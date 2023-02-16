@@ -56,6 +56,7 @@ aside li:hover {
 
 /* ___________________________________ */
 
+/* header */
 header {
     background-color: #1f71e9;
 }
@@ -68,10 +69,18 @@ header {
 .__fs {
     font-size: 15px;
 }
+/* / header */
 
+/* ___________________________________ */
 
-/* ------------------------- */
-
+/* menu laterale a scomparsa */
 .data-inizio {
     font-size: 15px;
 }
+
+@media screen and (max-width : 991px) {
+    .offcanvas.offcanvas-end {
+        width: 100%!important;
+    }
+}
+/* / menu laterale a scomparsa */
