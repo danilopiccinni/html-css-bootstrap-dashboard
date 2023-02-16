@@ -19,6 +19,7 @@ section {
     /* test */
     background-color:red;
 }
+
 /* / misure conenitori macroaree */
 
 /* ___________________________________ */
@@ -48,6 +49,8 @@ aside li:hover {
     
         /* test */
         background-color:red;
+
+        overflow-y: auto;
     }
 }
 /* / aside */
