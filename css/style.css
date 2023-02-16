@@ -5,8 +5,6 @@ nav {
 
 aside {
     width: 150px;
-    
-    /* test */
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
 }
@@ -14,9 +12,6 @@ aside {
 section {
     width: calc(100vw - 150px);
     height: calc(100% - 70px);
-
-    /* test */
-    background-color:red;
 }
 
 /* / misure conenitori macroaree */
@@ -45,11 +40,6 @@ aside li:hover {
     section {
         width: calc(100vw - 75px);
         height: calc(100vh - 70px);
-    
-        /* test */
-        background-color:red;
-
-        overflow-y: auto;
     }
 }
 /* / aside */
